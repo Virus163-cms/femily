@@ -1,0 +1,33 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+	background-color: #f2f6fa;
+}
+.logo {
+  font-size: 1.5rem;
+}
+.container__title {
+	position: relative;
+	text-align: center;
+	color: black;
+}
+.bottom-right {
+	position: absolute;
+	bottom: 30%;
+	right: 10%;
+	left: 40%;
+	background-color: rgba(235, 220, 220, 0.555);
+}
+.bottom-left {
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+}
+@import './mobile.scss';
