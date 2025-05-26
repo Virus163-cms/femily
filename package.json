@@ -1,5 +1,5 @@
-{ 
-	"name": "Femily-Rusha",
+{
+  "name": "femily-rusha",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,13 @@
     "gulp-uglify-es": "^3.0.0",
     "sass": "^1.60.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Virus163-cms/family-russia..git"
+  },
+  "bugs": {
+    "url": "https://github.com/Virus163-cms/family-russia./issues"
+  },
+  "homepage": "https://github.com/Virus163-cms/family-russia.#readme",
   "description": ""
 }

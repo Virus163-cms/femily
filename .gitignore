@@ -8703,3 +8703,13 @@ node_modules/yargs-parser/build/lib/string-utils.js
 node_modules/yargs-parser/build/lib/tokenize-arg-string.js
 node_modules/yargs-parser/build/lib/yargs-parser-types.js
 node_modules/yargs-parser/build/lib/yargs-parser.js
+app/index.html
+node_modules/@parcel/watcher-linux-x64-glibc/LICENSE
+node_modules/@parcel/watcher-linux-x64-musl/watcher.node
+node_modules/@parcel/watcher-linux-x64-musl/package.json
+node_modules/@parcel/watcher-linux-x64-musl/LICENSE
+node_modules/@parcel/watcher-linux-x64-glibc/watcher.node
+package-lock.json
+package.json
+node_modules/@parcel/watcher-linux-x64-musl/README.md
+node_modules/@parcel/watcher-linux-x64-glibc/README.md
