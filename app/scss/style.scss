@@ -6,6 +6,32 @@
   box-sizing: border-box;
 }
 .header{
-	background: url(/images/header.png) 100% 100% no-repeat;
+	background: url(/images/header2.png) no-repeat;
 	background-size: cover;
+	background-position: center;
+	max-height: 744px;
+	height: 100%;
+}
+.navbar{
+	padding-top: 130px;
+}
+.link-t{
+	padding-top: 540px;
+}
+.card{
+	background-color: rgb(244,236,220);
+	width: 25rem;
+}
+.card-title{
+	font-size: 18pt;
+}
+.card-text{
+	font-size: 11pt;
+}
+.btn-color{
+	background-color:rgb(182 143 34);
+	color: white;
+}
+span{
+	color:rgb(182 143 34);
 }
