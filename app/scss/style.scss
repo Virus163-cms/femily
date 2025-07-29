@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.card-title, .modal-title {
+	color: rgb(0, 104, 66);
+}
 .header{
 	background: url(/images/header2.png) no-repeat;
 	background-size: contain;
@@ -25,7 +28,7 @@
 .card-title{
 	font-size: 18pt;
 }
-.card-text{
+.card-text, .modal-body{
 	font-size: 11pt;
 }
 .btn-color{
@@ -35,7 +38,19 @@
 span{
 	color:rgb(182 143 34);
 }
-
+.modal-content{
+	background-color: rgb(244,236,220);
+}
+.span-nap{
+	color: rgb(106, 37, 58);
+}
+.direction{
+	background-image: url(/images/fon.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
 @media (max-width: 1400px) {
 	.navbar{
 		padding-top: 110px;
