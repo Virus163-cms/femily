@@ -7,7 +7,7 @@
 }
 .header{
 	background: url(/images/header2.png) no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-position: center;
 	max-height: 744px;
 	height: 100%;
@@ -34,4 +34,52 @@
 }
 span{
 	color:rgb(182 143 34);
+}
+
+@media (max-width: 1400px) {
+	.navbar{
+		padding-top: 110px;
+	}
+	.link-t{
+		padding-top: 500px;
+	}
+	
+}
+@media (max-width: 1200px) {
+	.navbar{
+		padding-top: 95px;
+	}
+	.link-t{
+		padding-top: 416px;
+	}
+	
+}
+@media (max-width: 990px) {
+	.navbar{
+		padding-top: 56px;
+	}
+	.link-t{
+		padding-top: 319px;
+	}
+	
+}
+
+@media (max-width: 768px) {
+	.navbar{
+		padding-top: 37px;
+	}
+	.link-t{
+		padding-top: 227px;
+	}
+	
+}
+
+@media (max-width: 412px) {
+	.navbar{
+		padding-top: 10px;
+	}
+	.link-t{
+		padding-top: 172px;
+	}
+	
 }
