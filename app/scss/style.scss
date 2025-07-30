@@ -27,7 +27,15 @@
 }
 .card-title{
 	font-size: 18pt;
+	
 }
+.pading-row{
+	padding: 80px 0 20px 0;
+}
+.margin-row{
+	margin: 0 5px 0 5px;
+}
+
 .card-text, .modal-body{
 	font-size: 11pt;
 }
@@ -37,16 +45,18 @@
 }
 span{
 	color:rgb(182 143 34);
+	font-weight: bold;
 }
 .modal-content{
 	background-color: rgb(244,236,220);
 }
 .span-nap{
 	color: rgb(106, 37, 58);
+	font-weight: bold;
 }
 .direction{
 	background-image: url(/images/fon.png);
-	background-size: contain;
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	
