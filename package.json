@@ -18,14 +18,5 @@
     "gulp-sass": "^5.1.0",
     "gulp-uglify-es": "^3.0.0",
     "sass": "^1.60.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Virus163-cms/family-russia..git"
-  },
-  "bugs": {
-    "url": "https://github.com/Virus163-cms/family-russia./issues"
-  },
-  "homepage": "https://github.com/Virus163-cms/family-russia.#readme",
-  "description": ""
+  }
 }
