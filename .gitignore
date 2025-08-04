@@ -8817,3 +8817,5 @@ node_modules/undici-types/h2c-client.d.ts
 node_modules/undici-types/mock-call-history.d.ts
 node_modules/undici-types/utility.d.ts
 package-lock.json
+app/index.html
+app/css/style.min.css
