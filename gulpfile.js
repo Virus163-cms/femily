@@ -59,10 +59,11 @@ function building() {
     return src([
         'app/css/style.min.css',
         'app/js/main.min.js',
-				'app/js/bootstrap.js',
+				
         'app/*.html',
 				'app/fonts/*.*',
 				'app/images/*.*',
+                'app/images/*/*.*',
 				'app/category/*.html',
 				'app/pages/*.html',
         'app/*.php',
