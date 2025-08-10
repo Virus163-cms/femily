@@ -8,6 +8,47 @@
 .card-title, .modal-title {
 	color: rgb(0, 104, 66);
 }
+// Кнопка
+
+.fixed-btn {
+  position: fixed;
+  bottom: 60px;
+  left: 50px;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1050;
+  color: #0d6efd; /* цвет SVG — как у Bootstrap primary */
+  transition: color 0.2s ease;
+}
+.fixed-btn:hover {
+  color: #0b5ed7; /* чуть темнее при наведении */
+}
+.fixed-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.modal-dialog-bottom-left {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    max-width: 300px;
+  }
+  .modal.fade .modal-dialog {
+    transform: translate(0, 100%);
+    transition: transform 0.3s ease-out;
+  }
+  .modal.show .modal-dialog {
+    transform: translate(0, 0);
+  }
 
 .card{
 	background-color: rgb(244,236,220);

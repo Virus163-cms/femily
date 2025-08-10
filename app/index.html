@@ -10,6 +10,13 @@
 	<!-- Put this script tag to the <head> of your page -->
 	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
 </head>
+<!-- Кнопка с SVG -->
+<button type="button" class="fixed-btn d-none d-lg-flex" aria-label="Моя кнопка" data-bs-toggle="modal" data-bs-target="#donateModal">
+  <!-- Вставь сюда свой SVG -->
+  <img src="/images/svg/help.svg" alt="" style="width: 100px;">
+</button>
+
+
 <body>
 <header>
 	<div class="container header">
@@ -290,6 +297,27 @@
     </div>
   </div>
 </div>
+
+<!-- Модальное окно 9 -->
+<div class="modal fade" id="donateModal" tabindex="-1" aria-labelledby="donateModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm modal-dialog-bottom-left">
+    <div class="modal-content">
+      <div class="modal-header py-2">
+        <h5 class="modal-title" id="donateModalLabel">Помочь проекту</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body">
+        <p class="small mb-2">Ваша поддержка поможет нам развивать проект.</p>
+        <div class="mb-3">
+          <label for="donateAmount" class="form-label">Сумма</label>
+          <input type="number" class="form-control form-control-sm" id="donateAmount" placeholder="Введите сумму">
+        </div>
+        <button class="btn btn-success w-100">Помочь проекту</button>
+        <button type="button" class="btn btn-success w-100 mt-2" data-bs-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="container">
 	<section>
 		<img class="col-12" src="/images/header2.png" alt="">
@@ -435,95 +463,49 @@
 </div>
 
 <div class="container mt-4">
-
 	<footer class="footer">
-
 		<div class="row">
-
 			<div class="col-12 col-md-2 text-center mt-2">
-
 				<a class="navbar-brand" href="#"><img src="/images/svg/logoFemily.svg" alt="logoFemily" width="100" height="100%"></a>
-
 			</div>
-
 			<div class="col-12 col-md-4 mt-md-5">
-
 				<ul class="nav flex-column">
-
 					<li class="nav-item">
-
 						<a class="nav-link active" aria-current="page" href="#">Главная</a>
-
 					</li>
-
 					<li class="nav-item">
-
 						<a class="nav-link" href="#abaut">О нас</a>
-
 					</li>
-
 					<li class="nav-item">
-
 						<a class="nav-link" href="#project">Наши проекты</a>
-
 					</li>
-
 					<li class="nav-item">
-
 						<a class="nav-link" href="#Educational">Образовательное направление</a>
-
 					</li>
-
 				</ul>
-
 			</div>
-
 			<div class="col-12 col-md-4 mt-md-5">
-
 				<ul class="nav flex-column">
-
 					<li class="nav-item">
-
 						<a class="nav-link" aria-current="page" href="#news">Наши новости</a>
-
 					</li>
-
 					<li class="nav-item">
-
 						<a class="nav-link" href="#">Наши партнеры</a>
-
 					</li>
-
 					<li class="nav-item">
-
 						<a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#static8Backdrop">Обратная связь</a>
-
 					</li>
-
 				</ul>
-
 			</div>
-
 			<div class="col-12 col-md-2 mt-md-5">
-
 				<div class="row"><a href=""><img class="logo-social" src="/images/svg/telegram-logo.svg" alt="Telegram"></a></div>
-
 				<div class="row"><a href=""><img class="logo-social" src="/images/svg/vk.svg" alt="ВКонтакте"></a></div>
-
 				<div class="row"><a href=""><img class="logo-social" src="/images/svg/rutube-sign-logo.svg" alt="Rutube"></a></div>
-
 			</div>
-
 		</div>
-
 	</footer>
-
 </div>
 
-
-
 <script src="js/main.min.js"></script>
-
 </body>
-
 </html>
